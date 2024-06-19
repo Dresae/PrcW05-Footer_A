@@ -22,22 +22,10 @@ This creates a basic footer sctructure comprised of 4 sections each and listing 
 
 ### Code:
 
-We start with a <h4>footer</h4> element, which is a semantic HTML element that defines the footer section of a web page.
+We start defining the **footer** class for our base footer which will contain all the elements.
+The four Unordered lists have been encapsulated into the **footer-top** class, allowing to apply the same style to each of the **footer-list** classes
 
-Container Div Inside the <footer> element, there is a <div> element with no class or ID. This is a generic container element that wraps the footer content.
-
-Footer List The next element is an unordered list (<ul>) with a class of footer-list. This list will contain a series of list items that represent social media links.
-
-List Items The list contains three list items (<li>) with a class of footer-list-item. Each list item contains an anchor tag (<a>) with a class of footer-list-link. The anchor tags have an href attribute set to #, which means they don't link to a specific URL (yet).
-
-Social Media Icons Inside each anchor tag, there is an <i> element with a class that represents a social media icon: * ri-facebook-circle-line for Facebook * ri-instagram-line for Instagram * ri-twitter-line for Twitter
-
-These classes are likely from a CSS framework or library (e.g., Remix Icon) that provides pre-designed icons.
-
-Closing Tags The code closes the footer list, container div, and footer section with their respective closing tags (</ul>, </div>, and </footer>).
-
-Overall, t
-
+The second main part is defined by the bottom section under the **footer-bottom** class that was used to place the company title, copyright and the social media icons that were placed using the List  **(li)** HTML element.
 
 ## CSS File
 
