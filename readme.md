@@ -46,57 +46,33 @@ The second main part is defined by the bottom section under the **footer-bottom*
 - <b>.footer</b>
  >> This selector targets elements with the class "footer" and sets their padding-block to 5rem, background-color to #151823, and color to #666873.
 
-- <b>*</b>
- >> sample
+- <b>.footer-container:</b>
+ >>  This selector targets elements with the class "footer-container" and sets their max-width to 116rem, margin to auto, padding to 0 1.5rem, overflow to hidden, and resize to horizontal.
 
-- <b>*</b>
- >> sample
+- <b>.footer-top:</b>
+ >>  This selector targets elements with the class "footer-top" and sets their display to grid, grid-template-columns to repeat with auto-fit and a minimum width of 20rem, and row-gap to 2rem.
 
-- <b>*</b>
- >> sample
+- <b>.footer-title: </b>
+ >> This selector targets elements with the class "footer-title" and sets their font-size to 1.8rem, color to #fff, font-weight to 500, and margin-bottom to 2rem.
 
-- <b>*</b>
- >> sample
+- <b>.footer-list:</b>
+ >>  This selector targets elements with the class "footer-list" and sets their display to flex and flex-direction to column with a gap of 2rem.
 
-- <b>*</b>
- >> sample
+- <b>.footer-list-item: </b>
+ >> This selector targets elements with the class "footer-list-item" and removes the default list-style.
 
-- <b>*</b>
- >> sample
-
-- <b>*</b>
- >> sample
-
-- <b>*</b>
- >> sample
+- <b>footer-list-link:</b>
+ >>  This selector targets elements with the class "footer-list-link" and sets their text-decoration to none, color to inherit, and transition to color with a duration of 0.25s.
 
 
+- <b>.footer-list-link:hover:</b>
+ >> This selector targets elements with the class "footer-list-link" when hovered and sets their color to #fff.
 
-*: 
+- <b>.footer-bottom: </b>
+ >> This selector targets elements with the class "footer-bottom" and sets their display to flex, justify-content to space-between, gap to 2rem, and flex-wrap to wrap.
 
-: 
-: 
-
-.footer-container: This selector targets elements with the class "footer-container" and sets their max-width to 116rem, margin to auto, padding to 0 1.5rem, overflow to hidden, and resize to horizontal.
-
-.footer-top: This selector targets elements with the class "footer-top" and sets their display to grid, grid-template-columns to repeat with auto-fit and a minimum width of 20rem, and row-gap to 2rem.
-
-.footer-title: This selector targets elements with the class "footer-title" and sets their font-size to 1.8rem, color to #fff, font-weight to 500, and margin-bottom to 2rem.
-
-.footer-list: This selector targets elements with the class "footer-list" and sets their display to flex and flex-direction to column with a gap of 2rem.
-
-.footer-list-item: This selector targets elements with the class "footer-list-item" and removes the default list-style.
-
-.footer-list-link: This selector targets elements with the class "footer-list-link" and sets their text-decoration to none, color to inherit, and transition to color with a duration of 0.25s.
-
-.footer-list-link:hover: This selector targets elements with the class "footer-list-link" when hovered and sets their color to #fff.
-
-.footer-divider: This selector targets elements with the class "footer-divider" and sets their margin-block to 2.5rem, border to none, and border-top to a 1px solid rgba(252, 255, 255, 0.1).
-
-.footer-bottom: This selector targets elements with the class "footer-bottom" and sets their display to flex, justify-content to space-between, gap to 2rem, and flex-wrap to wrap.
-
-.footer-bottom .footer-list: This selector targets elements with the class "footer-list" inside elements with the class "footer-bottom" and sets their flex-direction to row.
-
+- <b>.footer-bottom .footer-list: </b>
+ >> This selector targets elements with the class "footer-list" inside elements with the class "footer-bottom" and sets their flex-direction to row.
 
 ***
 
