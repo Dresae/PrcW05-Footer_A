@@ -21,8 +21,7 @@ These Branches were merged and will look as follow:
 This creates a basic footer sctructure comprised of 4 sections each. listing several options for the user to navigate through the website
 
 ### Code:
-We start defining a 
-
+We start defining the **<div>** elements are used to create a container for the footer content. The <footer> element is used to define a footer for a document or section. The <h6> element is used to define a heading with a level of 6. The <ul> element is used to create an unordered list. The <li> elements are used to define list items within the unordered list. The <a> elements are used to create hyperlinks within the list items. The classes are used to style the elements using CSS.
 
 
 ## CSS File
