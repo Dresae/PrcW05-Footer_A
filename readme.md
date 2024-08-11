@@ -3,7 +3,7 @@ Lets make a simple and responsive Footer template with child items and social me
 
 ##  Branches dev1 and dev2
 
-In these branches the code is split in two parts, the HTML one which was developed on * **dev1** * and the style on the * **dev2** * branch.
+In these branches the code is split in two parts, the HTML one which was developed on **_dev1_** and the style on the **_dev2_** branch.
 
 ##  Branches joint, QA and Main
 
